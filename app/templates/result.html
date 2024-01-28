@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>
+    Classification result
+</h1>
+<hr>
+<h2>
+    {{result_title}}
+</h2>
+<img src="{{result['image']}} " alt="">
+<p>
+    {{result["explanation"]}}
+</p>
+{% endblock content %}
